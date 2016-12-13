@@ -33,7 +33,7 @@ header {
 }
 
 #coverimage {
-	background-image: url(images/background.jpg);
+	background-image: url(background.jpg);
 	background-size: cover;
 	padding: 200px;
 	text-align: center;
