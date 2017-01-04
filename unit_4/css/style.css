@@ -10,9 +10,14 @@ lime #E7D80D*/
 	margin: 0;
 }
 
+body {
+	font-size: 16px; /*16px=1em*/
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
+	letter-spacing: 10px;
 }
 
 h2 {
@@ -29,6 +34,10 @@ header {
 	padding: 20px;
 	color: #FFF;
 	text-transform: uppercase;
+}
+
+img {
+	width: 300px;
 }
 
 #headertitle {
@@ -64,6 +73,7 @@ a {
 
 #services {
 	padding: 60px;
+	margin: 2em auto;
 }
 
 #team {
