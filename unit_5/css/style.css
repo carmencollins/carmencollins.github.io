@@ -1,0 +1,139 @@
+/*dark pink #F09884
+peach #F2C59B
+light pink #F4EBE4
+lime #E7D80D*/
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 16px; /*16px=1em*/
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+h2 {
+	text-align: center;
+	letter-spacing: 10px;
+	padding: 2em;
+}
+
+p,a {
+	font-family: 'Crimson Text', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #F2C59B;
+	width: 2em;
+	margin: 1em auto;
+}
+
+header {
+	/*background: #F09884;
+	padding: 20px;
+	color: #FFF;
+	text-transform: uppercase;*/
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+img {
+	width: 100%;
+}
+
+#headertitle {
+	font-weight: lighter;
+}
+
+#coverimage {
+	background-image: url(background.jpg);
+	background-size: cover;
+	padding: 200px;
+	text-align: center;
+}
+
+#title {
+	font-size: 50px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+#slogan {
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+nav {
+	/*font-family: Helvetica, sans-serif;
+	padding: 10px;
+	text-align: right;*/
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.navlinks {
+	margin: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #E8D612;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.services {
+	width: 30em;
+	margin: 2em auto;
+}
+
+.team {
+	width: 30em;
+	margin: 2em auto;
+}
+
+.portfolio {
+	width: 30em;
+	margin: 2em auto;
+}
+
+.portfolioimages,#stationery {
+	width: 20em;
+}
+
+.contact {
+	width: 30em;
+	margin: 2em auto;
+}
+
+footer {
+	/*background: #F09884;
+	padding: 20px;*/
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
