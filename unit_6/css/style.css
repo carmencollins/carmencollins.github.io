@@ -1,0 +1,191 @@
+/*dark pink #F09884
+peach #F2C59B
+light pink #F4EBE4
+lime #E7D80D*/
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 16px; /*16px=1em*/
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+h2 {
+	text-align: center;
+	letter-spacing: 10px;
+	padding: 1em;
+}
+
+h3 {
+	color: #F09884;
+	padding: 10px 0 0 0;
+}
+
+h5 {
+	color: #E7D80D;
+}
+
+p,a {
+	font-family: 'Crimson Text', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #F2C59B;
+	width: 2em;
+	margin: 1em 0;
+}
+
+header {
+	background: #F09884;
+	padding: 20px;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+img {
+	width: 100%;
+}
+
+#headertitle {
+	font-weight: lighter;
+	float: left;
+}
+
+#coverimage {
+	background-image: url(background.jpg);
+	background-size: cover;
+	padding: 200px;
+	text-align: center;
+}
+
+#title {
+	font-size: 50px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+#slogan {
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+nav {
+	font-family: Helvetica, sans-serif;
+	padding: 10px;
+	text-align: right;
+}
+
+.navlinks {
+	margin: 1em;
+}
+
+#nav_bar {
+	float: right;
+}
+
+nav a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #E8D612;
+}
+
+.services {
+	width: 30%;
+	float: left;
+	padding: 15px;
+}
+
+.team {
+	width: 30%;
+	float: left;
+	padding: 20px;
+}
+
+.portfolio {
+	width: 30em;
+	margin: 2em auto;
+}
+
+.portfolioimages {
+	width: 20em;
+	float: left;
+	padding: 20px;
+}
+
+#stationery {
+	width: 20em;
+	padding: 0 75px 75px 75px;
+}
+
+#stationery_aside {
+	float: left;
+	width: 20%;
+	margin: 0 auto;
+}
+
+#contact {
+/*	width: 30em;
+	margin: 2em auto;*/
+	float: right;
+	width: 60%;
+}
+
+/*unit 6 color codes
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+footer {
+	background: #F09884;
+	padding: 20px;
+	text-align: center;
+}
+
+#footer_text {
+	color: #FFF;
+}
