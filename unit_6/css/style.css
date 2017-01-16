@@ -10,6 +10,13 @@ lime #E7D80D*/
 	margin: 0;
 }
 
+header {
+	background: #F09884;
+	padding: 20px;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
 body {
 	font-size: 16px; /*16px=1em*/
 }
@@ -49,13 +56,6 @@ hr {
 	margin: 1em 0;
 }
 
-header {
-	background: #F09884;
-	padding: 20px;
-	color: #FFF;
-	text-transform: uppercase;
-}
-
 img {
 	width: 100%;
 }
@@ -84,21 +84,18 @@ img {
 }
 
 nav {
-	font-family: Helvetica, sans-serif;
 	padding: 10px;
 	text-align: right;
-}
-
-.navlinks {
-	margin: 1em;
-}
-
-#nav_bar {
 	float: right;
 }
 
 nav a {
+	margin: 1em;
 	font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+	color: #FFF;
 }
 
 a {
@@ -106,45 +103,57 @@ a {
 	color: #E8D612;
 }
 
+.services_wrapper {
+	width: 90%;
+	margin: auto;
+}
+
 .services {
-	width: 30%;
+	width: 31%;
 	float: left;
-	padding: 15px;
+	padding: 1%;
+}
+
+.team_wrapper {
+	width: 75%;
+	margin: auto;
 }
 
 .team {
-	width: 30%;
+	width: 40%;
 	float: left;
-	padding: 20px;
+	padding: 5%;
 }
 
-.portfolio {
-	width: 30em;
-	margin: 2em auto;
+.portfolio_wrapper {
+	width: 90%;
+	margin: auto;
 }
 
 .portfolioimages {
-	width: 20em;
+	width: 31%;
 	float: left;
-	padding: 20px;
+	padding: 1%;
 }
 
 #stationery {
-	width: 20em;
-	padding: 0 75px 75px 75px;
+	width: 80%;
+	padding: 10%;
 }
 
 #stationery_aside {
 	float: left;
-	width: 20%;
-	margin: 0 auto;
+	width: 40%;
 }
 
 #contact {
-/*	width: 30em;
-	margin: 2em auto;*/
 	float: right;
 	width: 60%;
+}
+
+.contact_wrapper {
+	width: 60%;
+	margin: auto;
 }
 
 /*unit 6 color codes
