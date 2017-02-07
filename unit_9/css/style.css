@@ -1,0 +1,263 @@
+/*dark pink #F09884
+peach #F2C59B
+light pink #F4EBE4
+lime #E7D80D*/
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background: #F09884;
+	padding: 1em;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+body {
+	font-size: 16px; /*16px=1em*/
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+}
+
+h2 {
+	text-align: center;
+	letter-spacing: .5em;
+	padding: 1em;
+}
+
+h3 {
+	color: #F09884;
+	padding: .5em 0 0 0;
+}
+
+h5 {
+	color: #E7D80D;
+}
+
+p,a {
+	font-family: 'Crimson Text', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+hr {
+	border: none;
+	height: .25em;
+	background-color: #F2C59B;
+	width: 2em;
+	margin: 1em 0;
+}
+
+img {
+	width: 100%;
+	max-width: 440px;
+}
+
+#headertitle {
+	font-weight: lighter;
+	float: left;
+	padding: .25em;
+}
+
+#coverimage {
+	background-image: url(background.jpg);
+	background-size: cover;
+	padding: 12.5em 0;
+	text-align: center;
+}
+
+#title {
+	font-size: 3em;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+#slogan {
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+nav {
+	padding: 1em;
+	text-align: right;
+	float: right;
+}
+
+nav a:link {
+	padding: .5em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+	color: #FFF;
+}
+
+a {
+	text-decoration: none;
+	color: #E8D612;
+}
+label {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	padding: .5em;
+	text-decoration: none;
+	color: #E8D612;
+	text-align: center;
+	display: none;
+}
+
+#toggle {
+	display: none;
+}
+
+.services_wrapper {
+	width: 90%;
+	margin: auto;
+}
+
+.services {
+	width: 31%;
+	float: left;
+	padding: 1%;
+}
+
+.team_wrapper {
+	width: 75%;
+	margin: auto;
+}
+
+.team {
+	width: 40%;
+	float: left;
+	padding: 5%;
+}
+
+.portfolio_wrapper {
+	width: 90%;
+	margin: auto;
+}
+
+.portfolioimages {
+	width: 31%;
+	float: left;
+	padding: 1%;
+}
+
+#stationery {
+	width: 80%;
+	padding: 10%;
+}
+
+#stationery_aside {
+	float: left;
+	width: 40%;
+}
+
+#contact {
+	width: 100%;
+	text-align: center;
+	margin: 1em 0 4em;
+}
+
+#contact hr {
+	margin: 1em auto;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+footer {
+	background: #F09884;
+	padding: 1em;
+	text-align: center;
+}
+
+#footer_text {
+	color: #FFF;
+}
+
+@media only screen and (min-width: 1604px) {
+	.services_wrapper {
+		width: 80%;
+	}
+
+	.team_wrapper {
+		width: 65%;
+	}
+
+	.portfolio_wrapper {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 1160px) {
+	#headertitle, nav {
+		float: none;
+		text-align: center;
+	}
+
+	#title {
+		font-size: 2em;
+	}	
+}
+
+@media only screen and (max-width: 650px) { 
+	.services, .team, .portfolio_wrapper {
+		float: none;
+		margin: 0 auto;
+		width: 80%;
+	}
+	
+	.portfolioimages {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 593px) { /*this is where the nav breaks onto two lines*/
+	#headertitle {
+		font-size: 1.5em;
+	}
+
+	nav a:link {
+		display: block;
+	}
+
+	label {
+		display: block;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#toggle:checked + nav {
+		display: block;
+	}
+
+	#toggle:checked + nav a:link {
+		color: #000;
+	}
+
+	#toggle:checked + nav a:hover {
+		color: #FFF;
+	}
+}
+
+
+
+
+
